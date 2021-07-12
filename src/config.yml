@@ -1,0 +1,48 @@
+baseurl: "https://www.RevidianAuto.com/"
+title: "Revidian Auto"
+theme: ra-theme-2021
+
+googleAnalytics: "UA-194299279-3"
+
+enableEmoji: true
+
+params:
+  description: ""
+  tagline: "Modern Motorcycle Management - on any device"
+  mailchimpURL: ""
+  social:
+    twitter: "RevidianAuto"
+    facebook: "RevidianAuto"
+    linkedin: "RevidianAuto"
+    mastodon: "https://nanobyte.cafe/@RevidianAuto"
+    github: "revidian-auto"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: "RA Garage"
+      url: "/garage/"
+      weight: 5
+    - name: "Forum"
+      url: "https://forum.revidianauto.com"
+      weight: 10
+    - name: "Contact Us"
+      url: "/contact/"
+      weight: 15
+    - name: "Newsletter"
+      url: "/newsletter/"
+      weight: 20
+  garage:
+    - name: "Home"
+      url: "/garage/"
+      weight: -1
+    - name: "Features"
+      url: "/garage/features"
+      weight: 5
+    - name: "Pricing"
+      url: "/garage/pricing/"
+      weight: 10

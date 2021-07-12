@@ -1,0 +1,30 @@
+version: 2.1
+
+orbs:
+  strawberry: hubci/strawberry@0.6
+
+workflows:
+  main:
+    jobs:
+      - strawberry/build:
+          version: "0.17.0"
+          source: "src"
+          html-proofer: true
+      - deploy:
+          requires:
+            - strawberry/build
+          filters:
+            branches:
+              only: trunk
+
+jobs:
+  deploy:
+    docker:
+      - image: hubci/strawberry:0.17.0
+    steps:
+      - attach_workspace:
+          at: src
+      - add_ssh_keys
+      - run: |
+          echo 'sweb0.revidian.net ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHyIA/VJN9GHUeYUvauk+sGsQcvk8FpXErixwvgqQmW1pdje/Vo4RyAAskzdgoR+HUYOWM1gLW7ZFZHL8F//sqw=' >> ~/.ssh/known_hosts
+          rsync -va --delete src/public/ root@sweb0.revidian.net:/static-websites/revidian-auto/www/public_html
