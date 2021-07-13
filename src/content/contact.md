@@ -10,4 +10,5 @@ title: "Contact Us"
 	<label for="message">Message:</label>
 	<textarea name="message"></textarea>
 	<input type="submit" value="Send" />
+	<i class="fa fa-envelope"></i> You can also email us directly at <a href="mailto:contact@RevidianAuto.com">contact@RevidianAuto.com</a>
 </form>

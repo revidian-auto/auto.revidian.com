@@ -76,9 +76,10 @@ form{
 		margin-right: auto;
 		margin-left: auto;
 		border: none;
-		background-color: $tertiary-color;
+		background-color: $primary-color;
 		width: 50%;
 		height: 40px;
+		cursor: pointer;
 	}
 
 	textarea{
