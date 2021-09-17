@@ -13,7 +13,14 @@
 	</ul>
 	{{ if .Section }}
 	<nav>
-		<a class="section-image" href="{{ .Site.BaseURL  }}"><img src="/assets/img/garage-logo.svg" /></a>
+		<a class="section-image" href="{{ .Site.BaseURL  }}/{{ .Section }}">
+		{{ $subLogoURL := printf "/static/assets/img/%s-logo.svg" .Section }}
+		{{ if (fileExists $subLogoURL) }}
+			<img src="/assets/img/{{ .Section }}-logo.svg" />
+		{{ else }}
+		{{ .Section | title }}
+		{{ end }}
+		</a>
 		<ul class="menu h secondary">
 		{{ $curPage := . }}
 		{{ range index .Site.Menus .Section }}
