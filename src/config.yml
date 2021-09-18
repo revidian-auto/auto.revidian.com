@@ -27,15 +27,18 @@ menu:
     - name: "RA Garage"
       url: "/garage/"
       weight: 5
+    - name: "Blog"
+      url: "/blog/"
+      weight: 10
     - name: "Forum"
       url: "https://forum.revidianauto.com"
-      weight: 10
+      weight: 15
     - name: "Contact Us"
       url: "/contact/"
-      weight: 15
+      weight: 20
     - name: "Newsletter"
       url: "/newsletter/"
-      weight: 20
+      weight: 25
   garage:
     - name: "Home"
       url: "/garage/"
@@ -46,3 +49,10 @@ menu:
     - name: "Pricing"
       url: "/garage/pricing/"
       weight: 10
+  blog:
+    - name: "Home"
+      url: "/blog/"
+      weight: -1
+    - name: "Submit Ideas"
+      url: "/blog/submit-ideas/"
+      weight: 5
