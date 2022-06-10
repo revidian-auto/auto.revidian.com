@@ -10,7 +10,6 @@ body > header{
 	display: flex;
 	flex-wrap: wrap;
 	position: relative;
-	margin-top: 15px;
 	background-color: #2b2c2d;
 	line-height: 60px;
 
@@ -21,24 +20,12 @@ body > header{
 		padding: 0 10px;
 		height: 60px;
 	}
-		.site-title::before{
-			position: absolute;
-			top: 0;
-			left: -60px;
-			right: -10px;
-			background-color: $primary-color;
-			height: 100%;
-			content: "";
-			transform: skew( -25deg, 0);
-			z-index: 2;
-		}
-
 		.site-title::after{
 			position: absolute;
 			top: 0;
-			left: -10px;
-			right: -25px;
-			background-color: darken($primary-color, 20%);
+			left: 110px;
+			background-color: $primary-color;
+			width: 12px;
 			height: 100%;
 			content: "";
 			transform: skew( -25deg, 0);
@@ -47,9 +34,12 @@ body > header{
 
 		.site-title a{
 			position: relative;
-			top: -6px;
-			padding: 0 5px;
+			padding: 0 12px;
 			z-index: 3;
+
+			img{
+				height: 30px;
+			}
 		}
 
 		.site-title .division{
