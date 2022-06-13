@@ -1,8 +1,8 @@
 ---
-title: "Get RA Garage"
+title: "Get R/A Garage"
 ---
 
-RA Garage is available via your web browser.
+R/A Garage is available via your web browser.
 You can start using it today by going to <https://garage.revidianauto.com>.
 
 **Log Maintenance**

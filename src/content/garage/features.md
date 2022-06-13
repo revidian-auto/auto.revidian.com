@@ -1,5 +1,5 @@
 ---
-title: "RA Garage Features"
+title: "R/A Garage Features"
 ---
 
 The Garage app is designed to make managing your motorcycles at home easier.
