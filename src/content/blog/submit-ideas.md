@@ -1,14 +1,14 @@
 ---
-title: "Submit Ideas"
+title: "Submit Post Ideas"
 type: page
 ---
 
 Is there something specific you'd like us to write about?
-Perhaps there's something happening in the news right now or a new DoD regulation coming down that you want to tell us about?
+Perhaps there's something happening in the news right now or a question about certain vehicles or technologies that you have.
 
 Whatever it is we'd love for you to get in touch!
 
-<form action="https://formspree.io/f/xayavjvl" method="POST">
+<form action="https://formspree.io/f/xpzkrokr" method="POST">
 	<label for="name">Name:</label>
 	<input type="text" name="name" />
 	<label for="_replyto">Email:</label>

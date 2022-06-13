@@ -1,4 +1,4 @@
-baseurl: "https://www.RevidianAuto.com/"
+baseurl: "https://auto.revidian.com/"
 title: "Revidian Auto"
 theme: ra-theme-2022
 
@@ -24,14 +24,14 @@ markup:
 
 menu:
   main:
-    - name: "RA Garage"
+    - name: "R/A Garage"
       url: "/garage/"
       weight: 5
     - name: "Blog"
       url: "/blog/"
       weight: 10
     - name: "Forum"
-      url: "https://forum.revidianauto.com"
+      url: "https://forum.auto.revidian.com"
       weight: 15
     - name: "Contact Us"
       url: "/contact/"
