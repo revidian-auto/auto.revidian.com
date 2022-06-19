@@ -1,7 +1,7 @@
 ---
 title: "What is Revidian Auto?"
 author: FelicianoTech
-date: 2021-09-19T10:00:00-04:00
+date: 2022-06-18T10:00:00-04:00
 categories:
   - "announcements"
 tags:
@@ -28,12 +28,12 @@ We're aiming to inject modern technology and authenticity into the industry and 
 
 ## What's Next?
 
-The main website launched over a month ago and today [this blog](https://www.RevidianAuto.com/blog) launches.
+The main website launched over a month ago and today [this blog](/blog) launches.
 We're just getting started.
 
 Here's some things in the works:
-- [RA Garage](https://garage.revidianauto.com) - our webapp that helps you manage your motorcycles at home is in beta
-- [a forum](https://forum.revidianauto.com) for discussion and to talk about the RA Garage app
+- [R/A Garage](https://garage.auto.revidian.com) - our webapp that helps you manage your motorcycles at home is in beta
+- [a forum](https://forum.auto.revidian.com) for discussion and to talk about the R/A Garage app
 - tons more blog posts
 
 
